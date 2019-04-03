@@ -1,9 +1,11 @@
 <!-- start config php -->
 <?php
+
   //allow the config
   define('__CONFIG__', true);
   // require config
  require_once 'inc/config.php';
+
 
 ?>
 
@@ -23,6 +25,7 @@
   <body>
 <div class="container">
   <!--  form  -->
+
     <?php 
       echo "Today is : ";
       echo date('Y m d');
